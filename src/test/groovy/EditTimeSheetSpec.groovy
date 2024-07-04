@@ -6,7 +6,7 @@ class EditTimeSheetSpec extends Specification {
 
     def "Deve editar o dia especificado na folha de ponto"() {
         given:
-        def editedDay = ["2024-06-20", "08:00", "20:00"] // Novo horário para o dia 20/06
+        def editedDay = ["2024-06-20", "08:00", "20:00"]
         def originalTimeSheet = [
                 ['JOELY', [
                         ["2024-06-20", "07:00", "19:00"],
